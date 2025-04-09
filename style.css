@@ -83,6 +83,62 @@ button:nth-child(2) {
     background-image: url(./images/federico-di-dio.png);
   }
   li:nth-child(5) {
-    background-image: url(./images/jezael-melgoza.png);
+    background-image: url(./images/casey-horner.png);
 }
+  li:nth-child(6) {  
+    background-image: url(./images/alexander-rotker.png);
+} 
 }
+  .still-life {
+    li:nth-child(1) {
+      background-image: url(./images/robert-lukeman.png);
+    }
+    li:nth-child(2) {
+      background-image: url(./images/sean-oulashin.png);
+    }
+    li:nth-child(3) {
+      background-image: url(./images/john-fowler.png);
+    }
+    li:nth-child(4) {
+      background-image: url(./images/dave-hoefler.png);
+    }
+    li:nth-child(5) {
+      background-image: url(./images/leonard-cotte.png);
+    }
+    li:nth-child(6) {
+      background-image: url(./images/rob-mulally.png);
+    }
+  }
+
+  .portrait-fashion {
+    li:nth-child(1) {
+      background-image: url(./images/poola-chaudhary.png);
+    }
+    li:nth-child(2) {
+      background-image: url(./images/dom-hill.png);
+    }
+    li:nth-child(3) {
+      background-image: url(./images/seth-doyle.png);
+    }
+    li:nth-child(4) {
+      background-image: url(./images/devn.png);
+    }
+    li:nth-child(5) {
+      background-image: url(./images/noah-buscher.png);
+    }
+    li:nth-child(6) {
+      background-image: url(./images/sincerely-media.png);
+    }
+    li:nth-child(7) {
+      background-image: url(./images/seth-doyle1.png);
+    }
+    li:nth-child(8) {
+      background-image: url(./images/melissa-askew.png);
+    }
+    li:nth-child(9) {
+      background-image: url(./images/brooke-cagle.png);
+    }
+    li:nth-child(10) {
+      background-image: url(./images/clem-onojeghuo.png);
+    }
+  }
