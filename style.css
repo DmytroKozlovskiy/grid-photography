@@ -7,10 +7,21 @@ ul {
   margin: 0;
   padding: 0;
 }
-  main {
-   color: black;
-   font-family: "Delius Unicase"
+
+main {
+  color: black;
+  font-family: "Delius Unicase";
+ }
+
+  body {
+    width: 1170px;
+    margin: 0 auto;
   }
+
+  h2 {
+    text-align: center;
+  }
+
 
 li {
   background-color: salmon;
@@ -55,17 +66,19 @@ li:hover::after {
 }
 
 button {
-  background-color: gray;
+  background-color: white;
   border: none;
   cursor: pointer;
   width: 40px;
   height: 40px;
   border-radius: 8px;
   transition: 400ms;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 button:not(:hover) {
-  opacity: 50%;
+  opacity: 100%;
 }
 
 :not(:hover)>button {
@@ -168,4 +181,10 @@ button:nth-child(2) {
   li:nth-child(10) {
     background-image: url(./images/clem-onojeghuo.png);
   }
+}
+.heart {
+  background-image: url(./icons/heart.png);
+}
+.download {
+  background-image: url(./icons/download.png);
 }
